@@ -26,33 +26,33 @@ int main()
     {
         if (numbers[curr_index] % 2 == 0)
         {
-            std::cout << numbers[curr_index];
-
+            std::cout << numbers[curr_index] << " ";
+            curr_index = curr_index + 1;
         }
-        curr_index = curr_index + 1;
+      
     }
 
     //prob 3
-    int curr_index = 0;
-    int sum = 0 
-    while (curr_index < numbers.size())
-    {
-        sum = sum + numbers[curr_index];
-        std::cout << numbers[curr_index];
+    // int curr_index = 0;
+    // int sum = 0 
+    // while (curr_index < numbers.size())
+    // {
+    //     sum = sum + numbers[curr_index];
+    //     std::cout << numbers[curr_index];
         
-        curr_index = curr_index + 1;
-    }
+    //     curr_index = curr_index + 1;
+    // }
 
-    //prob 4 
-    int curr_index = 0;
-    while (curr_index < size())
-    {
-        if (curr_index % 2 == 1)
-        {
-            std::cout << numbers[curr_index];
-        }
-        curr_index = curr_index + 1;
-    }
+    // //prob 4 
+    // int curr_index = 0;
+    // while (curr_index < size())
+    // {
+    //     if (curr_index % 2 == 1)
+    //     {
+    //         std::cout << numbers[curr_index];
+    //     }
+    //     curr_index = curr_index + 1;
+    // }
 
     // // prob 5
     // curr_index = 0;
